@@ -116,8 +116,8 @@
 
     <div class="screen active" id="screen-intro">
         <div class="title-slide">
-            <h1>O NAVEGADOR <br><span>DE RIQUEZA</span></h1>
-            <p class="subtitle">Tens 18 anos e um capital semente de 2.500€. As decisões que tomares nas próximas 10 rodadas vão definir se alcanças a independência financeira. O relógio conta para o desempate final!</p>
+            <h1>O NAVEGADOR <pt><span>DE RIQUEZA</span></h1>
+            <p class="subtitle">Tens 17 / 18 anos e um capital semente de 2.500€. As decisões que tomares nas próximas 10 rodadas vão definir se alcanças a independência financeira. O relógio conta para o desempate final!</p>
             <button class="btn-action" onclick="showScreen('screen-setup')">Iniciar Simulação</button>
         </div>
     </div>
@@ -167,7 +167,7 @@
             <p id="formStatus" style="font-size: 16px; margin-top: 15px; font-weight: 600;"></p>
             
             <div id="moodleLink" style="display: none; margin-top: 20px;">
-                <p style="color: var(--text-muted);">Os vossos resultados foram registados na Base de Dados da Turma.</p>
+                <p style="color: var(--text-muted);">Os vossos resultados foram registados na disciplina "Todos Contam" da plataforma "Aprender aeml".</p>
                 <a href="https://aprender-aemlaranjeira.pt/course/view.php?id=92" target="_blank" style="text-decoration: none;">
                     <button class="btn-action" style="background: var(--accent-purple); color: white; width: auto; padding: 12px 30px; font-size: 16px;">
                         Ver Ranking no Moodle
@@ -233,7 +233,7 @@
             title: "Alavancagem e Dívida",
             desc: "O banco oferece um crédito de 5.000€ com taxa de 11%.",
             options: [
-                { text: "Usar o crédito para comprar um carro melhor (Dívida Má).", effect: { cap: 5000, debt: 6500 }, feedback: "Erro crítico. Financiar um passivo com juros altos afunda o património." },
+                { text: "Usar o crédito para comprar um carro melhor.", effect: { cap: 5000, debt: 6500 }, feedback: "Erro crítico. Financiar um passivo com juros altos afunda o património." },
                 { text: "Não aceitar o crédito de consumo.", effect: { cap: 0 }, feedback: "Excelente. Evitaste passivos tóxicos." }
             ]
         },
@@ -258,7 +258,7 @@
             desc: "Última fase. Define a tua filosofia final.",
             options: [
                 { text: "Consolidação: Proteger capital e receber dividendos.", effect: { assets_mult: 1.1 }, feedback: "Estratégia madura. Chegaste ao fim com estabilidade." },
-                { text: "Ganância: Fazer uma grande aposta de alto risco.", effect: { final_gamble: true }, feedback: "A roleta vai girar no balanço final." }
+                { text: "Competição: Fazer uma grande aposta de alto risco.", effect: { final_gamble: true }, feedback: "A roleta vai girar no balanço final." }
             ]
         }
     ];
